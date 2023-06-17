@@ -119,8 +119,8 @@ const CardSlider = styled(MuiCard)<CardSlider>(({ theme, width = 0, active, posi
         ? `${slidInRL(width * 0.7)} 0.6s both`
         : `${slidInLR(width * 0.7)} 0.6s both`
       : position === 'R'
-      ? `${slidOutRL(width * 0.7)} 0.6s both`
-      : `${slidOutLR(width * 0.7)} 0.6s both`
+        ? `${slidOutRL(width * 0.7)} 0.6s both`
+        : `${slidOutLR(width * 0.7)} 0.6s both`
   }
 }))
 
@@ -246,13 +246,12 @@ const RegisterPage = () => {
   }
 
   const names = ['Satyam', 'Kunal', 'Aashish', 'Shyam', 'Vikram', 'David', 'Peter', 'Ricky Martin', 'Julia', 'Sofia'];
-  const [randomName, setRandomName] = useState(getRandomName());
+  const randomNameIndex = () => {
+    const randomIndex = Math.floor(Math.random() * names.length);
+    return names[randomIndex]
+  }
 
-  const getRandomName = () => {
-      const randomIndex = Math.floor(Math.random() * names.length);
-      const name = names[randomIndex];
-      setRandomName(name);
-  };
+  const [randomName, setRandomName] = useState(randomNameIndex());
 
   return (
     <Box>
@@ -507,7 +506,7 @@ const RegisterPage = () => {
                   Please Contact <b>{randomName}</b>
                 </Typography>
                 <Typography variant='h5' sx={{ fontWeight: 600, marginBottom: 1.5 }}>
-                  7259345477
+                  7095095095
                 </Typography>
               </Box>
               <Box
