@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/management/customers",
+    "title": "Customers"
+  },
+  {
+    "path": "/management/staff",
+    "title": "Customers"
+  },
+  {
+    "path": "/management/transactions",
+    "title": "Customers"
+  },
+  {
+    "path": "/management/requests",
+    "title": "Customers"
+  },
+  {
+    "path": "/management/wallet",
+    "title": "Customers"
+  },
+  {
+    "path": "/play/game",
+    "title": "Customers"
+  },
+  {
+    "path": "/play/setting",
+    "title": "Customers"
+  },
+  {
+    "path": "/report/game",
+    "title": "Customers"
+  },
+  {
+    "path": "/report/withdraw",
+    "title": "Customers"
+  }
+]

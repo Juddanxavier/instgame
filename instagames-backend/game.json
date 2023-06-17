@@ -1,0 +1,9 @@
+{
+    "stdTTL": 10,
+    "gameStatus": false,
+    "gameId2": "",
+    "offTime": null,
+    "gameId": "",
+    "recentWinner": 9,
+    "timelimitInMinutes": 1
+}

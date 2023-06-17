@@ -1,0 +1,13 @@
+instagames-client/node_modules
+instagames-client/.next
+
+instagames-backend/node_modules
+instagames-backend/.vscode
+
+instagames-admin/node_modules
+instagames-admin/.husky
+instagames-admin/.next
+instagames-admin/.vscode
+
+*.pem
+.DS_Store
